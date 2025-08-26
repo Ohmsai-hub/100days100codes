@@ -1,13 +1,16 @@
 #include <stdio.h>
 #include <math.h>
 #include <string.h>
+/*operation on
+circles
+*/
 int main() {
 char command[10];
 int radius , area , circumference ;
 printf("Enter the radius of the circle: ");
 scanf("%d", &radius);
-area = 3.14*radius*radius;
-circumference = 2*3.14*radius;
+area = pi*radius*radius;
+circumference = 2*pi*radius;
 printf("Area or Circumference: ");
 scanf("%s", command);
 if (strcmp(command, "Circumference") == 0){
